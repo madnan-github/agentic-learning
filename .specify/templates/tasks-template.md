@@ -25,21 +25,21 @@ description: "Task list template for feature implementation"
 - **Mobile**: `api/src/`, `ios/src/` or `android/src/`
 - Paths shown below assume single project - adjust based on plan.md structure
 
-<!-- 
+<!--
   ============================================================================
   IMPORTANT: The tasks below are SAMPLE TASKS for illustration purposes only.
-  
+
   The /sp.tasks command MUST replace these with actual tasks based on:
   - User stories from spec.md (with their priorities P1, P2, P3...)
   - Feature requirements from plan.md
   - Entities from data-model.md
   - Endpoints from contracts/
-  
+
   Tasks MUST be organized by user story so each story can be:
   - Implemented independently
   - Tested independently
   - Delivered as an MVP increment
-  
+
   DO NOT keep these sample tasks in the generated tasks.md file.
   ============================================================================
 -->
@@ -159,6 +159,22 @@ Examples of foundational tasks (adjust based on your project):
 
 ---
 
+## Constitution Compliance
+
+*GATE: All generated tasks MUST adhere to these principles.*
+
+*   [ ] **Spec-first Content Generation**: Tasks directly implement requirements from an approved spec.
+*   [ ] **AI-Assisted Writing with Human Review**: Tasks include steps for AI content generation AND human review.
+*   [ ] **Technical Accuracy**: Tasks specify verification against official documentation or trusted sources.
+*   [ ] **Clear Instructional Writing**: Tasks contribute to content that is clear and accessible.
+*   [ ] **Open-Source Transparency**: Tasks promote public visibility and reusability (e.g., clear commit messages, public issue tracking).
+*   [ ] **Automation-Oriented Publishing**: Tasks contribute to an automated publishing workflow.
+*   [ ] **Docusaurus Best Practices**: Tasks ensure generated documentation conforms to Docusaurus standards.
+*   [ ] **Runnable Code Examples**: Tasks include creating and testing runnable code examples.
+*   [ ] **No Copyright Violations**: Tasks ensure all content is original and free from copyright issues.
+*   [ ] **Markdown-only Content**: Tasks involve generating content in Markdown format.
+*   [ ] **SEO-friendly**: Tasks include steps for SEO-friendly headings and front-matter.
+
 ## Dependencies & Execution Order
 
 ### Phase Dependencies
@@ -192,6 +208,8 @@ Examples of foundational tasks (adjust based on your project):
 - All tests for a user story marked [P] can run in parallel
 - Models within a story marked [P] can run in parallel
 - Different user stories can be worked on in parallel by different team members
+
+**Architectural Decisions**: If the implementation of any task involves a significant architectural decision, it MUST be documented using the `/sp.adr` command.
 
 ---
 

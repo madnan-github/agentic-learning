@@ -1,55 +1,81 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- Sync Impact Report:
+Version change: None → 1.0.0
+Modified principles: All (initial creation)
+Added sections: Project Standards and Constraints, Project Success Criteria
+Removed sections: None
+Templates requiring updates:
+  - .specify/templates/plan-template.md: ⚠ pending
+  - .specify/templates/spec-template.md: ⚠ pending
+  - .specify/templates/tasks-template.md: ⚠ pending
+  - .specify/templates/commands/*.md: ⚠ pending
+Follow-up TODOs: None
+-->
+# AI/Spec-Driven Book Creation using Docusaurus and GitHub Pages Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Spec-first Content Generation
+Every chapter must originate from an approved written specification. This ensures a structured approach to content creation, aligning all writing efforts with predefined goals and outlines, and preventing unguided content development.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. AI-Assisted Writing with Human Review
+Content generation will be AI-assisted, but all AI-generated drafts are subject to mandatory human review. This principle balances efficiency gains from AI with the necessity of human oversight for quality, accuracy, and adherence to editorial standards.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Technical Accuracy through Official Documentation Verification
+All technical claims, instructions, and code examples must be verifiable against official documentation or trusted, authoritative sources. This guarantees the factual correctness and reliability of the book's content, crucial for a technical learning resource.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+<h3>IV. Clear, Beginner-to-Intermediate Friendly Instructional Writing</h3>
+The writing style must be clear, concise, and accessible to a beginner-to-intermediate audience. Complex topics should be broken down into understandable steps, ensuring a smooth learning curve and broad applicability for the target readership.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+<h3>V. Open-Source Transparency and Community Reusability</h3>
+The project will maintain open-source transparency, with the entire book's source and development history publicly available. This fosters community engagement, enables reusability of the content and codebase, and encourages collaborative improvements.
 
-### [PRINCIPLE_6_NAME]
+<h3>VI. Automation-Oriented Publishing Workflow</h3>
+The publishing process will be highly automated, from content generation to deployment. This minimizes manual effort, reduces the likelihood of human error, and ensures a consistent, efficient release cycle for new chapters and updates.
 
+<h2>Project Standards and Constraints</h2>
 
-[PRINCIPLE__DESCRIPTION]
+### Key Standards
+*   Every chapter must originate from an approved written spec.
+*   All technical claims must be verifiable from official or trusted sources.
+*   Code examples must be runnable and tested before publishing.
+*   Documentation must conform to Docusaurus best practices.
+*   Repository standards: Full Git version history, Clear commit messages, Public issue tracking enabled.
+*   Writing must follow structured instructional flow.
+*   AI-generated content must be reviewed, edited, and validated.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### Constraints
+*   Book format: Static documentation website (Docusaurus).
+*   Hosting: GitHub Pages only.
+*   Source control: GitHub mandatory.
+*   AI tools: Claude Code + Spec-Kit Plus only.
+*   Content pipeline: Spec → Draft → Review → Publish.
+*   All content must be original and free from copyright violation.
+*   No hallucinated tools, APIs, libraries, or frameworks.
+*   Markdown-only content format.
+*   SEO-friendly headings and front-matter required.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+<h2>Project Success Criteria</h2>
+*   Live, fully functional book deployed via GitHub Pages.
+*   100% of chapters derived from approved specs.
+*   Zero broken links across the site.
+*   All code examples execute without errors.
+*   Clean Docusaurus production build with zero warnings.
+*   Repository is reusable as an open-source learning template.
+*   Book is fully self-learnable without external guidance.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+This Constitution establishes the foundational principles and operational guidelines for the "AI/Spec-Driven Book Creation using Docusaurus and GitHub Pages" project. It supersedes all other conflicting practices or agreements within the project's scope.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+### Amendment Procedure
+Amendments to this Constitution require a formal proposal, review by project stakeholders, and approval by the designated lead architect or project owner. All amendments must be documented, including the rationale for the change, options considered, and a plan for propagating changes across dependent artifacts and processes.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+### Versioning Policy
+This Constitution will adhere to semantic versioning (MAJOR.MINOR.PATCH).
+*   **MAJOR** version increments indicate backward-incompatible changes, such as the removal or redefinition of core principles or significant governance procedures.
+*   **MINOR** version increments signify the addition of new principles, sections, or material expansions of existing guidance.
+*   **PATCH** version increments are reserved for clarifications, wording refinements, typo corrections, or other non-semantic adjustments.
+
+### Compliance Review
+All pull requests and code reviews must verify compliance with the principles and standards outlined in this Constitution. Any proposed changes that introduce architectural complexity must be thoroughly justified and demonstrate adherence to the principle of smallest viable change.
+
+**Version**: 1.0.0 | **Ratified**: 2025-12-04 | **Last Amended**: 2025-12-04
