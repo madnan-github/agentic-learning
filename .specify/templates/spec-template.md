@@ -77,39 +77,31 @@
 
 ## Requirements *(mandatory)*
 
-<!--
-  ACTION REQUIRED: The content in this section represents placeholders.
-  Fill them out with the right functional requirements.
--->
-
 ### Functional Requirements
 
-- **FR-001**: System MUST [specific capability, e.g., "allow users to create accounts"]
-- **FR-002**: System MUST [specific capability, e.g., "validate email addresses"]  
-- **FR-003**: Users MUST be able to [key interaction, e.g., "reset their password"]
-- **FR-004**: System MUST [data requirement, e.g., "persist user preferences"]
-- **FR-005**: System MUST [behavior, e.g., "log all security events"]
-
-*Example of marking unclear requirements:*
-
-- **FR-006**: System MUST authenticate users via [NEEDS CLARIFICATION: auth method not specified - email/password, SSO, OAuth?]
-- **FR-007**: System MUST retain user data for [NEEDS CLARIFICATION: retention period not specified]
+- **FR-001**: System MUST generate chapter content based on approved specifications.
+- **FR-002**: System MUST support AI-assisted content drafting using Claude Code + Spec-Kit Plus.
+- **FR-003**: System MUST allow for human review and editing of all AI-generated content.
+- **FR-004**: System MUST verify technical claims against official documentation.
+- **FR-005**: System MUST ensure all code examples are runnable and tested.
+- **FR-006**: System MUST produce documentation conforming to Docusaurus best practices.
+- **FR-007**: System MUST generate Markdown-only content.
+- **FR-008**: System MUST include SEO-friendly headings and front-matter.
 
 ### Key Entities *(include if feature involves data)*
 
-- **[Entity 1]**: [What it represents, key attributes without implementation]
-- **[Entity 2]**: [What it represents, relationships to other entities]
+- **Chapter Spec**: Represents the detailed outline and requirements for a single chapter.
+- **Draft Content**: AI-generated text for a chapter, awaiting human review.
+- **Published Chapter**: Final, reviewed, and technically verified chapter content.
 
 ## Success Criteria *(mandatory)*
 
-<!--
-  ACTION REQUIRED: Define measurable success criteria.
-  These must be technology-agnostic and measurable.
--->
-
 ### Measurable Outcomes
 
-- **SC-001**: [Measurable metric, e.g., "Users can complete account creation in under 2 minutes"]
-- **SC-002**: [Measurable metric, e.g., "System handles 1000 concurrent users without degradation"]
-- **SC-003**: [User satisfaction metric, e.g., "90% of users successfully complete primary task on first attempt"]
-- **SC-004**: [Business metric, e.g., "Reduce support tickets related to [X] by 50%"]
+- **SC-001**: Live, fully functional book deployed via GitHub Pages.
+- **SC-002**: 100% of chapters derived from approved specs.
+- **SC-003**: Zero broken links across the site.
+- **SC-004**: All code examples execute without errors.
+- **SC-005**: Clean Docusaurus production build with zero warnings.
+- **SC-006**: Repository is reusable as an open-source learning template.
+- **SC-007**: Book is fully self-learnable without external guidance.

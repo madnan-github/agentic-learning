@@ -31,7 +31,23 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+This plan adheres to the project's Constitution, ensuring:
+
+*   [ ] **Spec-first Content Generation**: Every chapter will originate from an approved written spec.
+*   [ ] **AI-Assisted Writing with Human Review**: All AI-generated content will undergo mandatory human review.
+*   [ ] **Technical Accuracy**: All technical claims will be verifiable from official documentation or trusted sources.
+*   [ ] **Clear Instructional Writing**: Content will be accessible to a beginner-to-intermediate audience.
+*   [ ] **Open-Source Transparency**: The project will maintain open-source transparency and reusability.
+*   [ ] **Automation-Oriented Publishing**: The publishing workflow will be highly automated.
+
+Furthermore, this plan adheres to the key standards and constraints:
+
+*   [ ] **Docusaurus Best Practices**: Documentation will conform to Docusaurus best practices.
+*   [ ] **Runnable Code Examples**: All code examples will be runnable and tested.
+*   [ ] **GitHub Standards**: Repository will follow full Git version history, clear commit messages, and public issue tracking.
+*   [ ] **No Copyright Violations**: All content will be original and free from copyright violation.
+*   [ ] **Markdown-only Content**: Content will be in Markdown format.
+*   [ ] **SEO-friendly**: Headings and front-matter will be SEO-friendly.
 
 ## Project Structure
 
