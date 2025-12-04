@@ -122,6 +122,9 @@ fi
 # Build list of available documents
 docs=()
 
+[[ -f "$FEATURE_SPEC" ]] && docs+=("spec.md")
+[[ -f "$IMPL_PLAN" ]] && docs+=("plan.md")
+
 # Always check these optional docs
 [[ -f "$RESEARCH" ]] && docs+=("research.md")
 [[ -f "$DATA_MODEL" ]] && docs+=("data-model.md")

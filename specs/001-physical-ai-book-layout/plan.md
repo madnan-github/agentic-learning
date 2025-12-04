@@ -17,7 +17,7 @@ This plan outlines the comprehensive technical strategy for developing the "Teac
 **Testing**: Docusaurus build validation (zero warnings/errors), automated code example execution, broken link checking, lab reproducibility checks.
 **Target Platform**: Web (Static site via GitHub Pages), Linux (for local ROS 2, Gazebo, Unity, NVIDIA Isaac development/labs), Jetson Orin (Edge AI deployment).
 **Project Type**: Single project (Docusaurus documentation site).
-**Performance Goals**: Efficient Docusaurus build times, responsive website performance, real-time AI pipeline execution for labs, low-latency robot control in simulation.
+**Performance Goals**: Docusaurus build times: Target < 2 minutes for full production build, responsive website performance (e.g., Largest Contentful Paint < 2.5s, First Input Delay < 100ms), real-time AI pipeline execution for labs, low-latency robot control in simulation (e.g., control loop latency < 50ms).
 **Constraints**: Markdown-only content, SEO-friendly headings/front-matter, all content original and copyright-free, spec-first content generation, AI-assisted writing with mandatory human review, technical accuracy verifiable from trusted sources.
 **Scale/Scope**: 4 Modules, ~20 Chapters, ~60 Lessons, ~20 Labs; guiding learners from zero robotics knowledge to building a fully autonomous humanoid system.
 

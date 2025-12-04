@@ -88,8 +88,8 @@ This user journey defines the computing and hardware environment for Physical AI
 
 ### Edge Cases
 
-- What happens if a learner's hardware environment does not meet minimum specifications for labs? (Provide guidance on alternatives/cloud resources).
-- How does the system handle outdated dependencies or breaking changes in ROS 2, NVIDIA Isaac, Gazebo, or Unity versions? (Specify versioning strategy and update policy).
+- Learner hardware environment not meeting minimum specifications: Provide explicit guidance on minimum hardware requirements for labs, and suggest readily available cloud-based alternatives or emulation options where applicable.
+- Outdated dependencies or breaking changes in core frameworks (ROS 2, NVIDIA Isaac, Gazebo, Unity): Implement a robust versioning strategy that pins specific versions of all major frameworks. Establish a clear update policy, including a process for testing and documenting breaking changes.
 
 ## Requirements *(mandatory)*
 

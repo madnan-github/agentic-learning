@@ -8,7 +8,7 @@ description: "Task list for Physical AI & Humanoid Robotics book implementation"
 **Input**: Design documents from `/specs/001-physical-ai-book-layout/`
 **Prerequisites**: plan.md (required), spec.md (required for user stories), research.md, data-model.md, contracts/
 
-**Tests**: The current feature specification does not explicitly request generating test tasks. Tests will be integrated as part of the "Quality Validation / Testing Strategy" in the plan.
+**Tests**: Tasks will include steps for implementing the "Quality Validation / Testing Strategy" defined in plan.md.
 
 **Organization**: Tasks are grouped by user story to enable independent implementation and testing of each story.
 
@@ -35,6 +35,7 @@ description: "Task list for Physical AI & Humanoid Robotics book implementation"
 - [ ] T002 Configure `docusaurus.config.js` for SEO and basic site metadata
 - [ ] T003 Configure `sidebars.js` for initial module structure
 - [ ] T004 Create `.github/workflows/ci-cd.yml` for Docusaurus build and GitHub Pages deployment
+- [ ] T004a Implement Quality Validation / Testing Strategy outlined in `plan.md`
 
 ---
 
@@ -47,6 +48,9 @@ description: "Task list for Physical AI & Humanoid Robotics book implementation"
 - [ ] T005 Establish Markdown content guidelines and basic front-matter structure in `docs/architecture/content-guidelines.md`
 - [ ] T006 Set up Dockerized environment for code example execution and testing in `code_examples/Dockerfile`
 - [ ] T007 Implement automated script for running Python/ROS 2 code examples in `code_examples/run_tests.py`
+- [ ] T007a Create and manage `specs/001-physical-ai-book-layout/research.md`
+- [ ] T007b Create and manage `specs/001-physical-ai-book-layout/data-model.md`
+- [ ] T007c Create and manage `specs/001-physical-ai-book-layout/quickstart.md`
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel
 
@@ -155,6 +159,8 @@ description: "Task list for Physical AI & Humanoid Robotics book implementation"
 - [ ] T039 Conduct comprehensive link checking and image verification in CI/CD pipeline in `.github/workflows/ci-cd.yml`
 - [ ] T040 Final review of all content for alignment with learning objectives and constitution in `specs/001-physical-ai-book-layout/spec.md` and `.specify/memory/constitution.md`
 - [ ] T041 Implement scripts for content generation/validation (e.g., front-matter adherence) in `scripts/validate_content.py`
+- [ ] T041a Conduct copyright review to ensure all content is original and free from copyright violation.
+- [ ] T041b Review all content for SEO-friendly headings and Docusaurus front-matter adherence.
 
 ---
 
