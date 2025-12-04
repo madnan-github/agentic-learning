@@ -1,0 +1,36 @@
+{
+  "name": "agentic-learning",
+  "version": "1.0.0",
+  "description": "[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue.svg)](https://yourusername.github.io/repository-name) [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)",
+  "main": "index.js",
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madnan-github/agentic-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/madnan-github/agentic-learning/issues"
+  },
+  "homepage": "https://github.com/madnan-github/agentic-learning#readme",
+  "devDependencies": {
+    "@docusaurus/core": "^3.9.2",
+    "@docusaurus/preset-classic": "^3.9.2",
+    "@mdx-js/react": "^3.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
